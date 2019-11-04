@@ -36,7 +36,7 @@ class demoTests: XCTestCase {
         test.checkTitle(title:title)
         
         // 3. then
-        XCTAssertEqual(test.title1, "TE", "Score computed from guess is wrong")
+        XCTAssertEqual(test.title1, "TEST", "Score computed from guess is wrong")
     }
     
     //    func testPerformanceExample() {

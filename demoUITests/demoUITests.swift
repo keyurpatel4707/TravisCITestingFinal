@@ -12,14 +12,14 @@ class demoUITests: XCTestCase {
     var app: XCUIApplication!
     override func setUp() {
         continueAfterFailure = false
-        app = XCUIApplication()
+//        app = XCUIApplication()
         app.launch()
         
     }
     
     func testExample() {
         // given
-        let label1 = app.staticTexts["Worl"]
+        let label1 = app.staticTexts["World"]
         
         // then
         XCTAssertTrue(label1.exists)
