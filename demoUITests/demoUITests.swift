@@ -12,7 +12,7 @@ class demoUITests: XCTestCase {
     var app: XCUIApplication!
     override func setUp() {
         continueAfterFailure = false
-//        app = XCUIApplication()
+        app = XCUIApplication()
         app.launch()
         
     }
