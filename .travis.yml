@@ -4,15 +4,6 @@ xcode_project: demo.xcodeproj #3
 xcode_scheme: demo #4 
 xcode_sdk: iphonesimulator12.4 #5
 
-notifications:
-  email: false
-branches:
-  only:
-    - master
-
-before_install:
-  - gem install fastlane --no-ri --no-rdoc --no-document
-
 jobs:
   include:
    # - stage: Swiflint
