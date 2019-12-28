@@ -19,7 +19,7 @@ class demoUITests: XCTestCase {
     
     func testExample() {
         // given
-        let label1 = app.staticTexts["Worl"]
+        let label1 = app.staticTexts["World"]
         
         // then
         XCTAssertTrue(label1.exists)
