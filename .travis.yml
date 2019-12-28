@@ -17,3 +17,8 @@ jobs:
     - stage: XCTest
       script:
         - fastlane scan -s demoUITest
+env:
+  global:
+  - APPNAME="3Embed Demo App"
+  - 'DEVELOPER_NAME="iPhone Distribution: KEYUR PATEL (CODE)"'
+  - PROFILE_UUID=89a43100-3c2f-4259-ad4e-a1c241f719dc
